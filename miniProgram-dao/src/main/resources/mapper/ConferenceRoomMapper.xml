@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.miniProggram.dao.mapper.ConferenceRoomMapper">
+    <select id="getAllConferenceRoom" resultType="com.miniProggram.dao.entity.ConferenceRoom">
+        select enroll_title,enroll_person,enroll_tools from bx_conferenceroom
+    </select>
+</mapper>
